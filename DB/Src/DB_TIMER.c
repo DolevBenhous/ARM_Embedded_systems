@@ -32,8 +32,8 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
 	if (htim == TIM_3)
 		{
 		  HAL_GPIO_TogglePin(GPIO_PER_1, GPIO_LED_1);
-		  HAL_GPIO_TogglePin(GPIO_PER_2, GPIO_LED_2);
-		  HAL_GPIO_TogglePin(GPIO_PER_3, GPIO_LED_3);
+//		  HAL_GPIO_TogglePin(GPIO_PER_2, GPIO_LED_2);
+//		  HAL_GPIO_TogglePin(GPIO_PER_3, GPIO_LED_3);
 		  flag_timer = SET;
 		}
 }
